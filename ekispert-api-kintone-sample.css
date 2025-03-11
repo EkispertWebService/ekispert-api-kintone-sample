@@ -1,0 +1,14 @@
+/* 探索条件設定パーツのヘッダ */
+.expGuiConditionPc .exp_conditionDetail .exp_conditionTable .exp_conditionItemList .exp_conditionHeader {
+    width: 8em;
+}
+
+/* 探索条件設定パーツの設定項目 */
+.expGuiConditionPc .exp_conditionDetail .exp_conditionTable .exp_conditionItemList .exp_conditionValue {
+    margin-left: 20px;
+}
+
+/* 探索条件設定パーツの文字列 */
+.expGuiConditionPc .exp_conditionOpen .exp_conditionOpenButton .exp_text {
+    font-size: 1.0em;
+}
