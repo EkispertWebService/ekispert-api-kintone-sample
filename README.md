@@ -1,24 +1,32 @@
-# 駅すぱあと API HTML5インターフェースkintone連携サンプルプログラム
+# 「駅すぱあと API」 HTML5インターフェースkintone連携サンプルプログラム
 
 「駅すぱあと API」の[HTML5インターフェースサンプル](https://github.com/EkispertWebService/GUI)とkintoneアプリを連携するサンプルプログラムです。
 
-kintoneアプリに「駅すぱあと API」のGUIパーツを利用し、駅検索、経路検索、経路の料金取得といった交通費申請に必要な機能を組み込むことができます。
+kintoneアプリに「駅すぱあと API」のGUIパーツを利用し、駅検索、経路検索、経路の料金取得といった**交通費申請に必要な機能を組み込むことができます。**
 
-サンプルプログラムは、kintoneがサンプルアプリとして提供している「交通費申請サンプルアプリ」に組み込むものになっており、すぐに試すことができます。<br>
-また、ソースコードは自由に改変することが可能となっており、どのkintoneアプリにも組み込んで利用していただくことができます。
-  
-なお、サンプルとしてのご提供のため、動作保証やお問い合わせ等のサポートは承っておりません。  
-利用条件については[こちら](https://github.com/EkispertWebService/ekispert-api-kintone-sample/blob/main/LICENSE.md)をご確認ください。
+<!-- ここに動画 -->
 
-# 前提条件
-* kintoneのアカウントを所持している
-* 「駅すぱあと API」の、kintone用として利用可能なスタンダードプランのアクセスキーを所持している
-    * アクセスキーの発行はドメイン毎です。別用途で使っているキーの転用はできません。
-    * アクセスキーをお持ちでない場合は[こちら](https://api-info.ekispert.com/form/trial/)からお申込みいただけます。
-* [駅すぱあと API HTML5インターフェース](https://github.com/EkispertWebService/GUI)（GUIパーツ）をダウンロードしている
-* 本リポジトリをダウンロードしている
+このサンプルコードは以下のようにご利用いただけます。
+✅無償で利用可能
+✅利用に関する承諾不要
+✅改変自由
 
-# 利用方法
+以下の場合は、ご利用をお断りします。
+❌ソースコード自体の販売
+❌反社会的勢力や違法行為に関わる利用
+
+# ご利用方法
+1. [利用条件](https://github.com/EkispertWebService/ekispert-api-kintone-sample/blob/main/LICENSE.md)をご確認ください
+2. [本リポジトリ](https://github.com/EkispertWebService/ekispert-api-kintone-sample?tab=readme-ov-file)から、サンプルコードを全てダウンロードしてください
+    * kintoneと連携するために必要なソースコードです
+3. [「駅すぱあと API」 HTML5インターフェース リポジトリ](https://github.com/EkispertWebService/GUI)から、サンプルコードを全てダウンロードしてください
+    * kintone上でアプリケーションを動かすために必要なソースコードです
+4. [「駅すぱあと API スタンダードプラン」評価版をお申し込み](https://api-info.ekispert.com/form/trial/)ください
+    * APIを利用するために必要なアクセスキーが発行されます
+    * 評価版は**90日間無料**でお使いいただけます
+5. アクセスキーが届いたら、次の[「kintoneとの連携方法」](#kintoneとの連携方法)を参考にご利用を開始してください
+
+# kintoneとの連携方法
 ## 1. サンプルアプリの追加
 * 以下のサイトを参考に「交通費申請」サンプルアプリをkintone上に作成します。
     * [サンプルアプリを追加する | kintone ヘルプ](https://jp.cybozu.help/k/ja/user/create_app/add_app_store.html)
@@ -59,3 +67,9 @@ kintoneアプリに「駅すぱあと API」のGUIパーツを利用し、駅検
         * 「本リポジトリ」の「ekispert-api-kintone-sample.css」
 3. アプリの更新を実行
 4. レコードを新規作成し、「交通手段」から「駅すぱあと」を選択し、駅入力画面が表示されることを確認
+
+# 注意事項
+* kintone上で「駅すぱあと API」を利用するためには、kintoneのアカウントが必要です
+* 本ソースコードは、サンプルとしてのご提供のため、動作保証やお問い合わせ等のサポートは承っておりません
+* アクセスキーの発行はドメイン毎です。別用途で使っているキーの転用はできません。
+    * すでにアクセスキーをお持ちの方は、改めてkintone用として利用するためのアクセスキーの発行が必要です
