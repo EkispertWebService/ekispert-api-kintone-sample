@@ -1,6 +1,6 @@
 # 「駅すぱあと API」 HTML5インターフェースkintone連携サンプルプログラム
 
-「駅すぱあと API」の[HTML5インターフェースサンプル](https://github.com/EkispertWebService/GUI)とkintoneアプリを連携するサンプルプログラムです。
+「駅すぱあと API」の<a href="https://github.com/EkispertWebService/GUI" target="_blank">HTML5インターフェースサンプル</a>とkintoneアプリを連携するサンプルプログラムです。
 
 kintoneアプリに「駅すぱあと API」のGUIパーツを利用し、駅検索、経路検索、経路の料金取得といった**交通費申請に必要な機能を組み込むことができます。**
 
@@ -17,33 +17,35 @@ kintoneアプリに「駅すぱあと API」のGUIパーツを利用し、駅検
 ❌反社会的勢力や違法行為に関わる利用
 
 # ご利用方法
-1. [利用条件](https://github.com/EkispertWebService/ekispert-api-kintone-sample/blob/main/LICENSE.md)をご確認ください
-2. [本リポジトリ](https://github.com/EkispertWebService/ekispert-api-kintone-sample?tab=readme-ov-file)から、サンプルコードを全てダウンロードしてください
+1. <a href="https://github.com/EkispertWebService/ekispert-api-kintone-sample/blob/main/LICENSE.md" target="_blank">利用条件</a>をご確認ください
+2. <a href="https://github.com/EkispertWebService/ekispert-api-kintone-sample?tab=readme-ov-file" target="_blank">本リポジトリ</a>から、サンプルコードを全てダウンロードしてください
     * kintoneと連携するために必要なソースコードです
-3. [「駅すぱあと API」 HTML5インターフェース リポジトリ](https://github.com/EkispertWebService/GUI)から、サンプルコードを全てダウンロードしてください
+3. <a href="https://github.com/EkispertWebService/GUI" target="_blank">「駅すぱあと API」 HTML5インターフェース リポジトリ</a>から、サンプルコードを全てダウンロードしてください
     * kintone上でアプリケーションを動かすために必要なソースコードです
-4. [「駅すぱあと API スタンダードプラン」評価版をお申し込み](https://api-info.ekispert.com/form/trial/)ください
+4. <a href="https://api-info.ekispert.com/form/trial/" target="_blank">「駅すぱあと API スタンダードプラン」評価版をお申し込み</a>ください
     * APIを利用するために必要なアクセスキーが発行されます
     * 評価版は**90日間無料**でお使いいただけます
-5. アクセスキーが届いたら、次の[「kintoneとの連携方法」](#kintoneとの連携方法)を参考にご利用を開始してください
+5. アクセスキーが届いたら、次の<a href="https://github.com/EkispertWebService/ekispert-api-kintone-sample?tab=readme-ov-file#kintoneとの連携方法" target="_blank">「kintoneとの連携方法」</a>を参考にご利用を開始してください
 
 # kintoneとの連携方法
 ## 1. サンプルアプリの追加
 * 以下のサイトを参考に「交通費申請」サンプルアプリをkintone上に作成します。
-    * [サンプルアプリを追加する | kintone ヘルプ](https://jp.cybozu.help/k/ja/user/create_app/add_app_store.html)
-    * 「交通費申請」サンプルアプリ: [交通費申請 - kintone（キントーン）- すぐに使えるサンプルアプリ | サイボウズの業務改善プラットフォーム](https://kintone-sol.cybozu.co.jp/apps/027-kotsuhi.html)
+    * <a href="https://jp.cybozu.help/k/ja/user/create_app/add_app_store.html" target="_blank">サンプルアプリを追加する | kintone ヘルプ</a>
+    * 「交通費申請」サンプルアプリ: <a href="https://kintone-sol.cybozu.co.jp/apps/027-kotsuhi.html" target="_blank">交通費申請 - kintone（キントーン）- すぐに使えるサンプルアプリ | サイボウズの業務改善プラットフォーム</a>
+
 ## 2. 駅すぱあと APIのアクセスキーの設定
 * 「本リポジトリ」の「ekispert-api-kintone-sample.js」の以下の部分にアクセスキーを設定
 ```ekispert-api-kintone-sample.js
         // 駅すぱあとWebサービスのアクセスキー
         var ekispertAccessKey = 'アクセスキーを指定してください';
 ```
+
 ## 3. サンプルアプリの変更
 ※ kintoneの操作については以下を参照
 
- [フォームを設定する | kintone ヘルプ](https://jp.cybozu.help/k/ja/app/form/design/set_form.html)
+ <a href="https://jp.cybozu.help/k/ja/app/form/design/set_form.html" target="_blank">フォームを設定する | kintone ヘルプ</a>
 
- [JavaScriptやCSSでアプリをカスタマイズする | kintone ヘルプ](https://jp.cybozu.help/k/ja/app/customize/js_customize.html)
+ <a href="https://jp.cybozu.help/k/ja/app/customize/js_customize.html" target="_blank">JavaScriptやCSSでアプリをカスタマイズする | kintone ヘルプ</a>
 
 1. 「フォーム」の変更
     * 「タイトル」の横に「スペース」を追加
