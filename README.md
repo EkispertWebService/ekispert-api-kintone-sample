@@ -4,7 +4,7 @@
 
 kintoneアプリに「駅すぱあと API」のGUIパーツを利用し、駅検索、経路検索、経路の料金取得といった**交通費申請に必要な機能を組み込むことができます。**
 
-[![デモ動画のサムネイル画像](assets/demo_thumb.png)](assets/demo.mp4)
+[![デモ動画のサムネイル画像](assets/demo_thumb.png)](https://youtu.be/Z31QBBWA7ec)
 
 このサンプルコードは以下のようにご利用いただけます。<br>
 ✅無償で利用可能<br>
